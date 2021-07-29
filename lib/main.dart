@@ -32,8 +32,7 @@ class XylophoneApp extends StatelessWidget {
                 ),
                 child: Text('Note 2'),
                 onPressed: () {
-                  final player = AudioCache();
-                  player.play('note2.wav');
+                  playSound(2);
                 },
               ),
               ElevatedButton(
@@ -42,8 +41,7 @@ class XylophoneApp extends StatelessWidget {
                 ),
                 child: Text('Note 3'),
                 onPressed: () {
-                  final player = AudioCache();
-                  player.play('note3.wav');
+                  playSound(3);
                 },
               ),
               ElevatedButton(
@@ -52,8 +50,7 @@ class XylophoneApp extends StatelessWidget {
                 ),
                 child: Text('Note 4'),
                 onPressed: () {
-                  final player = AudioCache();
-                  player.play('note4.wav');
+                  playSound(4);
                 },
               ),
               ElevatedButton(
@@ -62,8 +59,7 @@ class XylophoneApp extends StatelessWidget {
                 ),
                 child: Text('Note 5'),
                 onPressed: () {
-                  final player = AudioCache();
-                  player.play('note5.wav');
+                  playSound(5);
                 },
               ),
               ElevatedButton(
@@ -72,8 +68,7 @@ class XylophoneApp extends StatelessWidget {
                 ),
                 child: Text('Note 6'),
                 onPressed: () {
-                  final player = AudioCache();
-                  player.play('note6.wav');
+                  playSound(6);
                 },
               ),
               ElevatedButton(
@@ -82,8 +77,7 @@ class XylophoneApp extends StatelessWidget {
                 ),
                 child: Text('Note 7'),
                 onPressed: () {
-                  final player = AudioCache();
-                  player.play('note7.wav');
+                  playSound(7);
                 },
               ),
             ],
