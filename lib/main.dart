@@ -10,12 +10,58 @@ class XylophoneApp extends StatelessWidget {
       home: Scaffold(
         body: SafeArea(
           child: Container(
-            child: TextButton(
-              child: Text('Click Me'),
-              onPressed: () {
-                final player = AudioCache();
-                player.play('note1.wav');
-              },
+            child: Column(
+              children: [
+                TextButton(
+                  child: Text('Click Me'),
+                  onPressed: () {
+                    final player = AudioCache();
+                    player.play('note1.wav');
+                  },
+                ),
+                TextButton(
+                  child: Text('Click Me #2'),
+                  onPressed: () {
+                    final player = AudioCache();
+                    player.play('note2.wav');
+                  },
+                ),
+                TextButton(
+                  child: Text('Click Me #3'),
+                  onPressed: () {
+                    final player = AudioCache();
+                    player.play('note3.wav');
+                  },
+                ),
+                TextButton(
+                  child: Text('Click Me #4'),
+                  onPressed: () {
+                    final player = AudioCache();
+                    player.play('note4.wav');
+                  },
+                ),
+                TextButton(
+                  child: Text('Click Me #5'),
+                  onPressed: () {
+                    final player = AudioCache();
+                    player.play('note5.wav');
+                  },
+                ),
+                TextButton(
+                  child: Text('Click Me #6'),
+                  onPressed: () {
+                    final player = AudioCache();
+                    player.play('note6.wav');
+                  },
+                ),
+                TextButton(
+                  child: Text('Click Me #7'),
+                  onPressed: () {
+                    final player = AudioCache();
+                    player.play('note7.wav');
+                  },
+                ),
+              ],
             ),
           ),
         ),
