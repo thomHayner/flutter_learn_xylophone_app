@@ -16,49 +16,49 @@ class XylophoneApp extends StatelessWidget {
                   style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.all<Color>(Colors.red),
                   ),
-                  child: Text('Click Me'),
+                  child: Text('Note 1'),
                   onPressed: () {
                     final player = AudioCache();
                     player.play('note1.wav');
                   },
                 ),
                 TextButton(
-                  child: Text('Click Me #2'),
+                  child: Text('Note 2'),
                   onPressed: () {
                     final player = AudioCache();
                     player.play('note2.wav');
                   },
                 ),
                 TextButton(
-                  child: Text('Click Me #3'),
+                  child: Text('Note 3'),
                   onPressed: () {
                     final player = AudioCache();
                     player.play('note3.wav');
                   },
                 ),
                 TextButton(
-                  child: Text('Click Me #4'),
+                  child: Text('Note 4'),
                   onPressed: () {
                     final player = AudioCache();
                     player.play('note4.wav');
                   },
                 ),
                 TextButton(
-                  child: Text('Click Me #5'),
+                  child: Text('Note 5'),
                   onPressed: () {
                     final player = AudioCache();
                     player.play('note5.wav');
                   },
                 ),
                 TextButton(
-                  child: Text('Click Me #6'),
+                  child: Text('Note 6'),
                   onPressed: () {
                     final player = AudioCache();
                     player.play('note6.wav');
                   },
                 ),
                 TextButton(
-                  child: Text('Click Me #7'),
+                  child: Text('Note 7'),
                   onPressed: () {
                     final player = AudioCache();
                     player.play('note7.wav');
