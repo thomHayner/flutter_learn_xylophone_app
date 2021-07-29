@@ -12,7 +12,7 @@ class XylophoneApp extends StatelessWidget {
           child: Container(
             child: Column(
               children: [
-                TextButton(
+                ElevatedButton(
                   child: Text('Click Me'),
                   onPressed: () {
                     final player = AudioCache();
