@@ -23,6 +23,9 @@ class XylophoneApp extends StatelessWidget {
                   },
                 ),
                 ElevatedButton(
+                  style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all<Color>(Colors.orange),
+                  ),
                   child: Text('Note 2'),
                   onPressed: () {
                     final player = AudioCache();
@@ -30,6 +33,9 @@ class XylophoneApp extends StatelessWidget {
                   },
                 ),
                 ElevatedButton(
+                  style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all<Color>(Colors.yellow),
+                  ),
                   child: Text('Note 3'),
                   onPressed: () {
                     final player = AudioCache();
@@ -37,6 +43,9 @@ class XylophoneApp extends StatelessWidget {
                   },
                 ),
                 ElevatedButton(
+                  style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all<Color>(Colors.green),
+                  ),
                   child: Text('Note 4'),
                   onPressed: () {
                     final player = AudioCache();
@@ -44,6 +53,9 @@ class XylophoneApp extends StatelessWidget {
                   },
                 ),
                 ElevatedButton(
+                  style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all<Color>(Colors.blue),
+                  ),
                   child: Text('Note 5'),
                   onPressed: () {
                     final player = AudioCache();
@@ -51,6 +63,9 @@ class XylophoneApp extends StatelessWidget {
                   },
                 ),
                 ElevatedButton(
+                  style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all<Color>(Colors.indigo),
+                  ),
                   child: Text('Note 6'),
                   onPressed: () {
                     final player = AudioCache();
@@ -58,6 +73,9 @@ class XylophoneApp extends StatelessWidget {
                   },
                 ),
                 ElevatedButton(
+                  style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all<Color>(Colors.purple),
+                  ),
                   child: Text('Note 7'),
                   onPressed: () {
                     final player = AudioCache();
