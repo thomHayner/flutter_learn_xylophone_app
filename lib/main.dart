@@ -22,42 +22,42 @@ class XylophoneApp extends StatelessWidget {
                     player.play('note1.wav');
                   },
                 ),
-                TextButton(
+                ElevatedButton(
                   child: Text('Note 2'),
                   onPressed: () {
                     final player = AudioCache();
                     player.play('note2.wav');
                   },
                 ),
-                TextButton(
+                ElevatedButton(
                   child: Text('Note 3'),
                   onPressed: () {
                     final player = AudioCache();
                     player.play('note3.wav');
                   },
                 ),
-                TextButton(
+                ElevatedButton(
                   child: Text('Note 4'),
                   onPressed: () {
                     final player = AudioCache();
                     player.play('note4.wav');
                   },
                 ),
-                TextButton(
+                ElevatedButton(
                   child: Text('Note 5'),
                   onPressed: () {
                     final player = AudioCache();
                     player.play('note5.wav');
                   },
                 ),
-                TextButton(
+                ElevatedButton(
                   child: Text('Note 6'),
                   onPressed: () {
                     final player = AudioCache();
                     player.play('note6.wav');
                   },
                 ),
-                TextButton(
+                ElevatedButton(
                   child: Text('Note 7'),
                   onPressed: () {
                     final player = AudioCache();
