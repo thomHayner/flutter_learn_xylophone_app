@@ -13,6 +13,9 @@ class XylophoneApp extends StatelessWidget {
             child: Column(
               children: [
                 ElevatedButton(
+                  style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all<Color>(Colors.red),
+                  ),
                   child: Text('Click Me'),
                   onPressed: () {
                     final player = AudioCache();
