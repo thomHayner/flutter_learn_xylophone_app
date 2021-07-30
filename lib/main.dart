@@ -22,7 +22,11 @@ class XylophoneApp extends StatelessWidget {
                   style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.all<Color>(Colors.red),
                   ),
-                  child: Text('Note 1'),
+                  child: SizedBox(
+                    width: double.infinity,
+                    height: 100,
+                    child: Text('Note 1'),
+                  ),
                   onPressed: () {
                     playSound(1);
                   },
@@ -30,10 +34,14 @@ class XylophoneApp extends StatelessWidget {
                 ElevatedButton(
                   style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.all<Color>(Colors.orange),
-                    fixedSize: MaterialStateProperty.all<Size>(Size.square(320)),
+                    // fixedSize: MaterialStateProperty.all<Size>(Size.square(320)),
                     // fixedSize: MaterialStateProperty.all<Size>(Size.fromWidth(320)),
                   ),
-                  child: Text('Note 2'),
+                  child: SizedBox(
+                    width: double.infinity,
+                    height: 100,
+                    child: Text('Note 2'),
+                  ),
                   onPressed: () {
                     playSound(2);
                   },
@@ -45,7 +53,7 @@ class XylophoneApp extends StatelessWidget {
                   child: SizedBox(
                     width: double.infinity,
                     height: 100,
-                    child: Text('Note 3')
+                    child: Text('Note 3'),
                   ),
                   onPressed: () {
                     playSound(3);
@@ -55,7 +63,11 @@ class XylophoneApp extends StatelessWidget {
                   style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.all<Color>(Colors.green),
                   ),
-                  child: Text('Note 4'),
+                  child: SizedBox(
+                    width: double.infinity,
+                    height: 100,
+                    child: Text('Note 4'),
+                  ),
                   onPressed: () {
                     playSound(4);
                   },
@@ -64,7 +76,11 @@ class XylophoneApp extends StatelessWidget {
                   style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.all<Color>(Colors.blue),
                   ),
-                  child: Text('Note 5'),
+                  child: SizedBox(
+                    width: double.infinity,
+                    height: 100,
+                    child: Text('Note 5'),
+                  ),
                   onPressed: () {
                     playSound(5);
                   },
@@ -73,7 +89,11 @@ class XylophoneApp extends StatelessWidget {
                   style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.all<Color>(Colors.indigo),
                   ),
-                  child: Text('Note 6'),
+                  child: SizedBox(
+                    width: double.infinity,
+                    height: 100,
+                    child: Text('Note 6'),
+                  ),
                   onPressed: () {
                     playSound(6);
                   },
@@ -82,7 +102,11 @@ class XylophoneApp extends StatelessWidget {
                   style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.all<Color>(Colors.purple),
                   ),
-                  child: Text('Note 7'),
+                  child: SizedBox(
+                    width: double.infinity,
+                    height: 100,
+                    child: Text('Note 7'),
+                  ),
                   onPressed: () {
                     playSound(7);
                   },
