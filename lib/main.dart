@@ -30,6 +30,8 @@ class XylophoneApp extends StatelessWidget {
                 ElevatedButton(
                   style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.all<Color>(Colors.orange),
+                    fixedSize: MaterialStateProperty.all<Size>(Size.square(320)),
+                    // fixedSize: MaterialStateProperty.all<Size>(Size.fromWidth(320)),
                   ),
                   child: Text('Note 2'),
                   onPressed: () {
