@@ -98,18 +98,21 @@ class XylophoneApp extends StatelessWidget {
                     playSound(6);
                   },
                 ),
-                ElevatedButton(
-                  style: ButtonStyle(
-                    backgroundColor: MaterialStateProperty.all<Color>(Colors.purple),
+                Expanded(
+                  flex: 1,
+                  child: ElevatedButton(
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.purple),
+                    ),
+                    child: SizedBox(
+                      width: double.infinity,
+                      // height: 100,
+                      child: Text('Note 7'),
+                    ),
+                    onPressed: () {
+                      playSound(7);
+                    },
                   ),
-                  child: SizedBox(
-                    width: double.infinity,
-                    height: 100,
-                    child: Text('Note 7'),
-                  ),
-                  onPressed: () {
-                    playSound(7);
-                  },
                 ),
               ],
             ),
