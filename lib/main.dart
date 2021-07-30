@@ -42,7 +42,11 @@ class XylophoneApp extends StatelessWidget {
                   style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.all<Color>(Colors.yellow),
                   ),
-                  child: Text('Note 3'),
+                  child: SizedBox(
+                    width: double.infinity,
+                    height: 100,
+                    child: Text('Note 3')
+                  ),
                   onPressed: () {
                     playSound(3);
                   },
