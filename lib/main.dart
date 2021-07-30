@@ -18,72 +18,87 @@ class XylophoneApp extends StatelessWidget {
           child: Center(
             child: Column(
               children: [
-                ElevatedButton(
-                  style: ButtonStyle(
-                    backgroundColor: MaterialStateProperty.all<Color>(Colors.red),
+                Expanded(
+                  flex: 1,
+                  child: ElevatedButton(
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.red),
+                    ),
+                    child: SizedBox(
+                      width: double.infinity,
+                      height: 100,
+                      child: Text('Note 1'),
+                    ),
+                    onPressed: () {
+                      playSound(1);
+                    },
                   ),
-                  child: SizedBox(
-                    width: double.infinity,
-                    height: 100,
-                    child: Text('Note 1'),
-                  ),
-                  onPressed: () {
-                    playSound(1);
-                  },
                 ),
-                ElevatedButton(
-                  style: ButtonStyle(
-                    backgroundColor: MaterialStateProperty.all<Color>(Colors.orange),
-                    // fixedSize: MaterialStateProperty.all<Size>(Size.square(320)),
-                    // fixedSize: MaterialStateProperty.all<Size>(Size.fromWidth(320)),
+                Expanded(
+                  flex: 1,
+                  child: ElevatedButton(
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.orange),
+                      // fixedSize: MaterialStateProperty.all<Size>(Size.square(320)),
+                      // fixedSize: MaterialStateProperty.all<Size>(Size.fromWidth(320)),
+                    ),
+                    child: SizedBox(
+                      width: double.infinity,
+                      height: 100,
+                      child: Text('Note 2'),
+                    ),
+                    onPressed: () {
+                      playSound(2);
+                    },
                   ),
-                  child: SizedBox(
-                    width: double.infinity,
-                    height: 100,
-                    child: Text('Note 2'),
-                  ),
-                  onPressed: () {
-                    playSound(2);
-                  },
                 ),
-                ElevatedButton(
-                  style: ButtonStyle(
-                    backgroundColor: MaterialStateProperty.all<Color>(Colors.yellow),
+                Expanded(
+                  flex: 1,
+                  child: ElevatedButton(
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.yellow),
+                    ),
+                    child: SizedBox(
+                      width: double.infinity,
+                      height: 100,
+                      child: Text('Note 3'),
+                    ),
+                    onPressed: () {
+                      playSound(3);
+                    },
                   ),
-                  child: SizedBox(
-                    width: double.infinity,
-                    height: 100,
-                    child: Text('Note 3'),
-                  ),
-                  onPressed: () {
-                    playSound(3);
-                  },
                 ),
-                ElevatedButton(
-                  style: ButtonStyle(
-                    backgroundColor: MaterialStateProperty.all<Color>(Colors.green),
+                Expanded(
+                  flex: 1,
+                  child: ElevatedButton(
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.green),
+                    ),
+                    child: SizedBox(
+                      width: double.infinity,
+                      height: 100,
+                      child: Text('Note 4'),
+                    ),
+                    onPressed: () {
+                      playSound(4);
+                    },
                   ),
-                  child: SizedBox(
-                    width: double.infinity,
-                    height: 100,
-                    child: Text('Note 4'),
-                  ),
-                  onPressed: () {
-                    playSound(4);
-                  },
                 ),
-                ElevatedButton(
-                  style: ButtonStyle(
-                    backgroundColor: MaterialStateProperty.all<Color>(Colors.blue),
+                Expanded(
+                  flex: 1,
+                  child: ElevatedButton(
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.blue),
+                    ),
+                    child: SizedBox(
+                      width: double.infinity,
+                      height: 100,
+                      child: Text('Note 5'),
+                    ),
+                    onPressed: () {
+                      playSound(5);
+                    },
                   ),
-                  child: SizedBox(
-                    width: double.infinity,
-                    height: 100,
-                    child: Text('Note 5'),
-                  ),
-                  onPressed: () {
-                    playSound(5);
-                  },
                 ),
                 Expanded(
                   flex: 1,
